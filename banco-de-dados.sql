@@ -8,5 +8,6 @@ use mensagens;
 create database mensagens(
     id int not null primary key AUTO_INCREMENT,
     nome varchar(46) not null,
-    mensagem varchar(250) not null
+    mensagem varchar(250) not null,
+    telefone varchar(15)
 );

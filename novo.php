@@ -14,6 +14,8 @@
 
             Nome: <input type="text" name="nome">
             <br><br><br>
+            Telefone: <input type="text" name="telefone">
+            <br><br><br>
             Mensagem: <textarea name="mensagem" cols="30" rows="10"></textarea>
 
             <br>

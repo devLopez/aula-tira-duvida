@@ -28,6 +28,8 @@
 
             Nome: <input type="text" name="nome" value="<?php echo  $mensagem['nome'] ?>">
             <br><br><br>
+            Telefone: <input type="text" name="telefone" value="<?php echo  $mensagem['telefone'] ?>">
+            <br><br><br>
             Mensagem: <textarea name="mensagem" cols="30" rows="10"><?php echo  $mensagem['mensagem'] ?></textarea>
 
             <br>

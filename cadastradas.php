@@ -22,6 +22,7 @@
             <thead>
                 <tr>
                     <th>Nome</th>
+                    <th>Telefone</th>
                     <th>Mensagem</th>
                     <th>Ações</th>
                 </tr>
@@ -30,6 +31,7 @@
             <?php while ($linha = $consulta->fetch(PDO::FETCH_ASSOC)) : ?>
                 <tr>
                     <td><?php echo $linha['nome'] ?></td>
+                    <td><?php echo $linha['telefone'] ?></td>
                     <td><?php echo $linha['mensagem'] ?></td>
                     <td>
                         <a href="editar.php?id=<?php echo $linha['id'] ?>">Editar</a>
